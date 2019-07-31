@@ -2,6 +2,8 @@
 
 # Import psycopg2 - a python postgresql library
 import psycopg2
+
+# Import datetime.date module - allows for customized date display
 from datetime import date
 
 # Store the database name in a variable
