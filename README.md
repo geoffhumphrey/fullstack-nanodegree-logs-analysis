@@ -18,7 +18,7 @@ Once you have installed the VM, download or clone Udacity's [fullstack-nanodegre
 Start the virtual machine by opening your terminal, changing directory into the vagrant directory you set up previously. Then:
 1. Run ```vagrant up``` to build the VM - this may take several minutes to do the first time. 
 2. Run ```vagrant ssh``` to connect. 
-3. Change directory (cd) into the vagrant/logs_analyis directory by running the command ```cd /vagrant/logs_analyis```.
+3. Change directory (cd) into the vagrant/logs_analysis directory by running the command ```cd /vagrant/logs_analysis```.
 4. Run the program by typing the command ```python analysis.py```.
 
 The results of the should print in the terminal window.
