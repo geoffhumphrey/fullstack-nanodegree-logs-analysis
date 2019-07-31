@@ -47,23 +47,23 @@ Sunday, July 17, 2016 -- 2.26% errors
 ### DB Structure and SQL Queries Used
 The supplied database has three tables, each with associated columns:
 - articles
--- author
--- title
--- slug
--- lead
--- body
--- time
--- id
+	- author
+	- title
+	- slug
+	- lead
+	- body
+	- time
+	- id
 - authors
--- name
--- bio
--- id
+	- name
+	- bio
+	- id
 - logs
--- ip
--- method
--- status
--- time
--- id
+	- ip
+	- method
+	- status
+	- time
+	- id
 
 The following SQL queries were used to answer each question in the project requirements.
 
