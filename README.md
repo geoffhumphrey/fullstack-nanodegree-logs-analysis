@@ -65,7 +65,7 @@ The supplied database has three tables, each with associated columns:
 	- time
 	- id
 
-The following SQL queries were used to answer each question in the project requirements.
+The following SQL queries were used to answer each question in the project requirements (note the creation/replacement of two views used to "answer" the third question).
 
 *What are the most popular three articles of all time?*
 ```
@@ -94,14 +94,14 @@ CREATE OR REPLACE VIEW total_access AS
 	GROUP BY date
 	ORDER BY date;
 
-	CREATE OR REPLACE VIEW error_log AS
+CREATE OR REPLACE VIEW error_log AS
 	SELECT time::date as date, COUNT(*) as errors
 	FROM log
 	WHERE status LIKE '%404%'
 	GROUP BY date
 	ORDER BY date;
 
-	SELECT total_access.date, ROUND(((100.0*error_log.errors)/total_access.total_req),2) AS percent
+SELECT total_access.date, ROUND(((100.0*error_log.errors)/total_access.total_req),2) AS percent
 	FROM total_access, error_log
 	WHERE total_access.date = error_log.date
 	AND (((100.0*error_log.errors)/total_access.total_req) > 1.0)
