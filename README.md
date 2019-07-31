@@ -9,7 +9,7 @@ This project's task is to build a program in Python, utilizing the psycopg2 modu
 Each of the questions should be "answered" using a single SQL query, using SQL views if desired.
 
 ### Install a Virtual Machine
-A Linux-based virtual machine (VM), is required to run this program. For this project, the VM is built and managed with [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1). Download and install both on your computer.
+A Linux-based virtual machine (VM) is required to run this program. For this project, the VM is built and managed with [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1). Download and install both on your computer.
 
 ### Download Configuration Files and Database
 Once you have installed the VM, download or clone Udacity's [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) repository and the [database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Download or clone [this](https://github.com/geoffhumphrey/fullstack-nanodegree-logs-analysis) project, unzip, and copy into the vagrant directory. Finally, unzip the database and place the newsdata.sql into the newly created /vagrant/logs_analysis directory.
@@ -21,7 +21,7 @@ Start the virtual machine by opening your terminal, changing directory into the 
 3. Change directory (cd) into the vagrant/logs_analyis directory by running the command ```cd /vagrant/logs_analyis```.
 4. Run the program by typing the command ```python analysis.py```.
 
-The results of the shoud print in the terminal window.
+The results of the should print in the terminal window.
 
 ### Expected Output
 When the program has run, the following output should be printed in the terminal window:
