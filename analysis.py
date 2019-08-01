@@ -26,9 +26,11 @@ def query_db(query):
         connect.close()
         return rows
 
-    except:
-        print('Cannot connect to the database.')
-
+    except psycopg2.Error as err:
+        print("Unable to connect to the database")
+        print(err.pgerror)
+        print(err.diag.message_detail)
+        sys.exit(1)
 
 def top_three_articles():
 

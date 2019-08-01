@@ -1,15 +1,15 @@
 -----------> Logs Analysis Results <-----------
 
---- Question: What are the most popular three articles of all time? ---
+--- What are the most popular three articles of all time? ---
 "Candidate is jerk, alleges rival" -- 338,647 page views
 "Bears love berries, alleges bear" -- 253,801 page views
 "Bad things gone, say good people" -- 170,098 page views
 
---- Question: Who are the most popular article authors of all time? ---
+--- Who are the most popular article authors of all time? ---
 Ursula La Multa -- 507,594 page views
 Rudolf von Treppenwitz -- 423,457 page views
 Anonymous Contributor -- 170,098 page views
 Markoff Chaney -- 84,557 page views
 
---- Question: On which days did more than one percent of requests lead to errors? ---
+--- On which days did more than one percent of requests lead to errors? ---
 Sunday, July 17, 2016 -- 2.26% errors
